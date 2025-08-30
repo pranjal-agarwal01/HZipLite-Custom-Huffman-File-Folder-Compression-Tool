@@ -1,2 +1,3 @@
 # HZipLite-Custom-Huffman-File-Folder-Compression-Tool
 HZipLite — a fast, lossless Huffman-coding compressor for files &amp; folders, written in Java.
+HZipLite is a Java-based, lossless compression tool powered by Huffman coding. It compresses and decompresses both single files and entire directories, preserving structure via a compact metadata header. Under the hood it uses priority queues for tree construction, hash maps for symbol tables, and careful bit-level I/O for robust, repeatable results. Ideal for learning classic compression algorithms and for practical space savings on text-heavy data.
